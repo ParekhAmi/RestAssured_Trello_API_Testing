@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TrelloRestAPISuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.trelloapi.utilities.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="RestAssuredTests(failed)">
+    <classes>
+      <class name="com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest">
+        <methods>
+          <include name="setup"/>
+          <include name="checkStatusCode"/>
+          <include name="verifyCheckListCreated"/>
+          <include name="teaarDown"/>
+        </methods>
+      </class> <!-- com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest -->
+    </classes>
+  </test> <!-- RestAssuredTests(failed) -->
+</suite> <!-- Failed suite [TrelloRestAPISuite] -->

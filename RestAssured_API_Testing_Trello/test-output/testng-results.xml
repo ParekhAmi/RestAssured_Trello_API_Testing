@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="39" passed="39" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-01T12:48:07 EST" name="TrelloRestAPISuite" finished-at="2023-02-01T12:48:37 EST" duration-ms="30016">
+    <groups>
+    </groups>
+    <test started-at="2023-02-01T12:48:07 EST" name="RestAssuredTests" finished-at="2023-02-01T12:48:37 EST" duration-ms="30016">
+      <class name="com.trelloapi.testcases.TC007_CreateCheckList">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.trelloapi.testcases.TC007_CreateCheckList@f0c8a99]" started-at="2023-02-01T12:48:24 EST" name="setup" finished-at="2023-02-01T12:48:24 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="createCheckList()[pri:0, instance:com.trelloapi.testcases.TC007_CreateCheckList@f0c8a99]" started-at="2023-02-01T12:48:24 EST" name="createCheckList" finished-at="2023-02-01T12:48:26 EST" duration-ms="2251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCheckList -->
+        <test-method signature="checkChecklistName()[pri:0, instance:com.trelloapi.testcases.TC007_CreateCheckList@f0c8a99]" started-at="2023-02-01T12:48:26 EST" name="checkChecklistName" finished-at="2023-02-01T12:48:26 EST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkChecklistName -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.trelloapi.testcases.TC007_CreateCheckList@f0c8a99]" started-at="2023-02-01T12:48:26 EST" name="checkResponseBody" finished-at="2023-02-01T12:48:26 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.trelloapi.testcases.TC007_CreateCheckList@f0c8a99]" started-at="2023-02-01T12:48:26 EST" name="checkStatusCode" finished-at="2023-02-01T12:48:26 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="getChecklistId()[pri:0, instance:com.trelloapi.testcases.TC007_CreateCheckList@f0c8a99]" started-at="2023-02-01T12:48:26 EST" name="getChecklistId" finished-at="2023-02-01T12:48:26 EST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getChecklistId -->
+        <test-method is-config="true" signature="teaarDown()[pri:0, instance:com.trelloapi.testcases.TC007_CreateCheckList@f0c8a99]" started-at="2023-02-01T12:48:26 EST" name="teaarDown" finished-at="2023-02-01T12:48:26 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaarDown -->
+      </class> <!-- com.trelloapi.testcases.TC007_CreateCheckList -->
+      <class name="com.trelloapi.testcases.TC011_DELETE_DeleteBoard">
+        <test-method is-config="true" signature="deleteBoard()[pri:0, instance:com.trelloapi.testcases.TC011_DELETE_DeleteBoard@449a4f23]" started-at="2023-02-01T12:48:32 EST" name="deleteBoard" finished-at="2023-02-01T12:48:35 EST" duration-ms="3186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBoard -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.trelloapi.testcases.TC011_DELETE_DeleteBoard@449a4f23]" started-at="2023-02-01T12:48:32 EST" name="setup" finished-at="2023-02-01T12:48:32 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.trelloapi.testcases.TC011_DELETE_DeleteBoard@449a4f23]" started-at="2023-02-01T12:48:35 EST" name="checkResponseBody" finished-at="2023-02-01T12:48:35 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.trelloapi.testcases.TC011_DELETE_DeleteBoard@449a4f23]" started-at="2023-02-01T12:48:35 EST" name="checkStatusCode" finished-at="2023-02-01T12:48:35 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method is-config="true" signature="teaarDown()[pri:0, instance:com.trelloapi.testcases.TC011_DELETE_DeleteBoard@449a4f23]" started-at="2023-02-01T12:48:35 EST" name="teaarDown" finished-at="2023-02-01T12:48:35 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaarDown -->
+      </class> <!-- com.trelloapi.testcases.TC011_DELETE_DeleteBoard -->
+      <class name="com.trelloapi.testcases.TC010_GET_CheckItemsCreated">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.trelloapi.testcases.TC010_GET_CheckItemsCreated@53fe15ff]" started-at="2023-02-01T12:48:30 EST" name="setup" finished-at="2023-02-01T12:48:30 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="verifyCheckItemsCreated()[pri:0, instance:com.trelloapi.testcases.TC010_GET_CheckItemsCreated@53fe15ff]" started-at="2023-02-01T12:48:30 EST" name="verifyCheckItemsCreated" finished-at="2023-02-01T12:48:32 EST" duration-ms="2185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckItemsCreated -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.trelloapi.testcases.TC010_GET_CheckItemsCreated@53fe15ff]" started-at="2023-02-01T12:48:32 EST" name="checkResponseBody" finished-at="2023-02-01T12:48:32 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.trelloapi.testcases.TC010_GET_CheckItemsCreated@53fe15ff]" started-at="2023-02-01T12:48:32 EST" name="checkStatusCode" finished-at="2023-02-01T12:48:32 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method is-config="true" signature="teaarDown()[pri:0, instance:com.trelloapi.testcases.TC010_GET_CheckItemsCreated@53fe15ff]" started-at="2023-02-01T12:48:32 EST" name="teaarDown" finished-at="2023-02-01T12:48:32 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaarDown -->
+      </class> <!-- com.trelloapi.testcases.TC010_GET_CheckItemsCreated -->
+      <class name="com.trelloapi.testcases.TC012_GET_VerifyBoardDeleted">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.trelloapi.testcases.TC012_GET_VerifyBoardDeleted@1530c739]" started-at="2023-02-01T12:48:35 EST" name="setup" finished-at="2023-02-01T12:48:35 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="verifyBoardDeleted()[pri:0, instance:com.trelloapi.testcases.TC012_GET_VerifyBoardDeleted@1530c739]" started-at="2023-02-01T12:48:35 EST" name="verifyBoardDeleted" finished-at="2023-02-01T12:48:37 EST" duration-ms="2138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBoardDeleted -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.trelloapi.testcases.TC012_GET_VerifyBoardDeleted@1530c739]" started-at="2023-02-01T12:48:37 EST" name="checkResponseBody" finished-at="2023-02-01T12:48:37 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.trelloapi.testcases.TC012_GET_VerifyBoardDeleted@1530c739]" started-at="2023-02-01T12:48:37 EST" name="checkStatusCode" finished-at="2023-02-01T12:48:37 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method is-config="true" signature="teaarDown()[pri:0, instance:com.trelloapi.testcases.TC012_GET_VerifyBoardDeleted@1530c739]" started-at="2023-02-01T12:48:37 EST" name="teaarDown" finished-at="2023-02-01T12:48:37 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaarDown -->
+      </class> <!-- com.trelloapi.testcases.TC012_GET_VerifyBoardDeleted -->
+      <class name="com.trelloapi.testcases.TC008_GET_CheckListCreated">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.trelloapi.testcases.TC008_GET_CheckListCreated@740cae06]" started-at="2023-02-01T12:48:26 EST" name="setup" finished-at="2023-02-01T12:48:26 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="verifyCheckListCreated()[pri:0, instance:com.trelloapi.testcases.TC008_GET_CheckListCreated@740cae06]" started-at="2023-02-01T12:48:26 EST" name="verifyCheckListCreated" finished-at="2023-02-01T12:48:28 EST" duration-ms="2251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckListCreated -->
+        <test-method signature="checkChecklistName()[pri:0, instance:com.trelloapi.testcases.TC008_GET_CheckListCreated@740cae06]" started-at="2023-02-01T12:48:28 EST" name="checkChecklistName" finished-at="2023-02-01T12:48:28 EST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkChecklistName -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.trelloapi.testcases.TC008_GET_CheckListCreated@740cae06]" started-at="2023-02-01T12:48:28 EST" name="checkResponseBody" finished-at="2023-02-01T12:48:28 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.trelloapi.testcases.TC008_GET_CheckListCreated@740cae06]" started-at="2023-02-01T12:48:28 EST" name="checkStatusCode" finished-at="2023-02-01T12:48:28 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method is-config="true" signature="teaarDown()[pri:0, instance:com.trelloapi.testcases.TC008_GET_CheckListCreated@740cae06]" started-at="2023-02-01T12:48:28 EST" name="teaarDown" finished-at="2023-02-01T12:48:28 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaarDown -->
+      </class> <!-- com.trelloapi.testcases.TC008_GET_CheckListCreated -->
+      <class name="com.trelloapi.testcases.TC004_GET_VerifyListCreated">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.trelloapi.testcases.TC004_GET_VerifyListCreated@2ddc9a9f]" started-at="2023-02-01T12:48:17 EST" name="setup" finished-at="2023-02-01T12:48:17 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="verifyListCreated()[pri:0, instance:com.trelloapi.testcases.TC004_GET_VerifyListCreated@2ddc9a9f]" started-at="2023-02-01T12:48:17 EST" name="verifyListCreated" finished-at="2023-02-01T12:48:19 EST" duration-ms="2180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListCreated -->
+        <test-method signature="checkListName()[pri:0, instance:com.trelloapi.testcases.TC004_GET_VerifyListCreated@2ddc9a9f]" started-at="2023-02-01T12:48:19 EST" name="checkListName" finished-at="2023-02-01T12:48:19 EST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkListName -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.trelloapi.testcases.TC004_GET_VerifyListCreated@2ddc9a9f]" started-at="2023-02-01T12:48:19 EST" name="checkResponseBody" finished-at="2023-02-01T12:48:19 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.trelloapi.testcases.TC004_GET_VerifyListCreated@2ddc9a9f]" started-at="2023-02-01T12:48:19 EST" name="checkStatusCode" finished-at="2023-02-01T12:48:19 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method is-config="true" signature="teaarDown()[pri:0, instance:com.trelloapi.testcases.TC004_GET_VerifyListCreated@2ddc9a9f]" started-at="2023-02-01T12:48:19 EST" name="teaarDown" finished-at="2023-02-01T12:48:19 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaarDown -->
+      </class> <!-- com.trelloapi.testcases.TC004_GET_VerifyListCreated -->
+      <class name="com.trelloapi.testcases.TC002_GET_VerifyBoardCreated">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.trelloapi.testcases.TC002_GET_VerifyBoardCreated@750e2b97]" started-at="2023-02-01T12:48:12 EST" name="setup" finished-at="2023-02-01T12:48:12 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="verifyBoardCreated()[pri:0, instance:com.trelloapi.testcases.TC002_GET_VerifyBoardCreated@750e2b97]" started-at="2023-02-01T12:48:12 EST" name="verifyBoardCreated" finished-at="2023-02-01T12:48:14 EST" duration-ms="2208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBoardCreated -->
+        <test-method signature="checkBoardId()[pri:0, instance:com.trelloapi.testcases.TC002_GET_VerifyBoardCreated@750e2b97]" started-at="2023-02-01T12:48:14 EST" name="checkBoardId" finished-at="2023-02-01T12:48:14 EST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoardId -->
+        <test-method signature="checkBoardName()[pri:0, instance:com.trelloapi.testcases.TC002_GET_VerifyBoardCreated@750e2b97]" started-at="2023-02-01T12:48:14 EST" name="checkBoardName" finished-at="2023-02-01T12:48:14 EST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoardName -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.trelloapi.testcases.TC002_GET_VerifyBoardCreated@750e2b97]" started-at="2023-02-01T12:48:14 EST" name="checkResponseBody" finished-at="2023-02-01T12:48:14 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.trelloapi.testcases.TC002_GET_VerifyBoardCreated@750e2b97]" started-at="2023-02-01T12:48:14 EST" name="checkStatusCode" finished-at="2023-02-01T12:48:14 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method is-config="true" signature="teaarDown()[pri:0, instance:com.trelloapi.testcases.TC002_GET_VerifyBoardCreated@750e2b97]" started-at="2023-02-01T12:48:14 EST" name="teaarDown" finished-at="2023-02-01T12:48:14 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaarDown -->
+      </class> <!-- com.trelloapi.testcases.TC002_GET_VerifyBoardCreated -->
+      <class name="com.trelloapi.testcases.TC003_POST_CreateNewList">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.trelloapi.testcases.TC003_POST_CreateNewList@2e385cce]" started-at="2023-02-01T12:48:14 EST" name="setup" finished-at="2023-02-01T12:48:14 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="createNewList()[pri:0, instance:com.trelloapi.testcases.TC003_POST_CreateNewList@2e385cce]" started-at="2023-02-01T12:48:14 EST" name="createNewList" finished-at="2023-02-01T12:48:17 EST" duration-ms="2268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewList -->
+        <test-method signature="checkListName()[pri:0, instance:com.trelloapi.testcases.TC003_POST_CreateNewList@2e385cce]" started-at="2023-02-01T12:48:17 EST" name="checkListName" finished-at="2023-02-01T12:48:17 EST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkListName -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.trelloapi.testcases.TC003_POST_CreateNewList@2e385cce]" started-at="2023-02-01T12:48:17 EST" name="checkResponseBody" finished-at="2023-02-01T12:48:17 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.trelloapi.testcases.TC003_POST_CreateNewList@2e385cce]" started-at="2023-02-01T12:48:17 EST" name="checkStatusCode" finished-at="2023-02-01T12:48:17 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="getListId()[pri:0, instance:com.trelloapi.testcases.TC003_POST_CreateNewList@2e385cce]" started-at="2023-02-01T12:48:17 EST" name="getListId" finished-at="2023-02-01T12:48:17 EST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListId -->
+        <test-method is-config="true" signature="teaarDown()[pri:0, instance:com.trelloapi.testcases.TC003_POST_CreateNewList@2e385cce]" started-at="2023-02-01T12:48:17 EST" name="teaarDown" finished-at="2023-02-01T12:48:17 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaarDown -->
+      </class> <!-- com.trelloapi.testcases.TC003_POST_CreateNewList -->
+      <class name="com.trelloapi.testcases.TC001_POST_CreateNewBoard">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.trelloapi.testcases.TC001_POST_CreateNewBoard@71ba6d4e]" started-at="2023-02-01T12:48:07 EST" name="setup" finished-at="2023-02-01T12:48:07 EST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="postCreateNewBoard()[pri:0, instance:com.trelloapi.testcases.TC001_POST_CreateNewBoard@71ba6d4e]" started-at="2023-02-01T12:48:07 EST" name="postCreateNewBoard" finished-at="2023-02-01T12:48:11 EST" duration-ms="4216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCreateNewBoard -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.trelloapi.testcases.TC001_POST_CreateNewBoard@71ba6d4e]" started-at="2023-02-01T12:48:12 EST" name="checkResponseBody" finished-at="2023-02-01T12:48:12 EST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.trelloapi.testcases.TC001_POST_CreateNewBoard@71ba6d4e]" started-at="2023-02-01T12:48:12 EST" name="checkStatusCode" finished-at="2023-02-01T12:48:12 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="getBoardId()[pri:0, instance:com.trelloapi.testcases.TC001_POST_CreateNewBoard@71ba6d4e]" started-at="2023-02-01T12:48:12 EST" name="getBoardId" finished-at="2023-02-01T12:48:12 EST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBoardId -->
+        <test-method signature="getContentTypeHeaderValue()[pri:0, instance:com.trelloapi.testcases.TC001_POST_CreateNewBoard@71ba6d4e]" started-at="2023-02-01T12:48:12 EST" name="getContentTypeHeaderValue" finished-at="2023-02-01T12:48:12 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContentTypeHeaderValue -->
+        <test-method is-config="true" signature="teaarDown()[pri:0, instance:com.trelloapi.testcases.TC001_POST_CreateNewBoard@71ba6d4e]" started-at="2023-02-01T12:48:12 EST" name="teaarDown" finished-at="2023-02-01T12:48:12 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaarDown -->
+      </class> <!-- com.trelloapi.testcases.TC001_POST_CreateNewBoard -->
+      <class name="com.trelloapi.testcases.TC006_GET_VerifyCardCreated">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.trelloapi.testcases.TC006_GET_VerifyCardCreated@46cdf8bd]" started-at="2023-02-01T12:48:21 EST" name="setup" finished-at="2023-02-01T12:48:21 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="verifyCardCreated()[pri:0, instance:com.trelloapi.testcases.TC006_GET_VerifyCardCreated@46cdf8bd]" started-at="2023-02-01T12:48:21 EST" name="verifyCardCreated" finished-at="2023-02-01T12:48:24 EST" duration-ms="2179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCardCreated -->
+        <test-method signature="checkCardName()[pri:0, instance:com.trelloapi.testcases.TC006_GET_VerifyCardCreated@46cdf8bd]" started-at="2023-02-01T12:48:24 EST" name="checkCardName" finished-at="2023-02-01T12:48:24 EST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCardName -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.trelloapi.testcases.TC006_GET_VerifyCardCreated@46cdf8bd]" started-at="2023-02-01T12:48:24 EST" name="checkResponseBody" finished-at="2023-02-01T12:48:24 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.trelloapi.testcases.TC006_GET_VerifyCardCreated@46cdf8bd]" started-at="2023-02-01T12:48:24 EST" name="checkStatusCode" finished-at="2023-02-01T12:48:24 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method is-config="true" signature="teaarDown()[pri:0, instance:com.trelloapi.testcases.TC006_GET_VerifyCardCreated@46cdf8bd]" started-at="2023-02-01T12:48:24 EST" name="teaarDown" finished-at="2023-02-01T12:48:24 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaarDown -->
+      </class> <!-- com.trelloapi.testcases.TC006_GET_VerifyCardCreated -->
+      <class name="com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest@2e8c1c9b]" started-at="2023-02-01T12:48:28 EST" name="setup" finished-at="2023-02-01T12:48:28 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest@2e8c1c9b]" started-at="2023-02-01T12:48:28 EST" name="checkStatusCode" finished-at="2023-02-01T12:48:28 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method is-config="true" signature="verifyCheckListCreated()[pri:0, instance:com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest@2e8c1c9b]" started-at="2023-02-01T12:48:28 EST" name="verifyCheckListCreated" finished-at="2023-02-01T12:48:28 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckListCreated -->
+        <test-method signature="getCheckItemsTestData(java.lang.String,java.lang.String)[pri:0, instance:com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest@2e8c1c9b]" started-at="2023-02-01T12:48:29 EST" name="getCheckItemsTestData" data-provider="getCheckItemsTestDataPro" finished-at="2023-02-01T12:48:29 EST" duration-ms="273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CheckItem1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckItemsTestData -->
+        <test-method signature="getCheckItemsTestData(java.lang.String,java.lang.String)[pri:0, instance:com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest@2e8c1c9b]" started-at="2023-02-01T12:48:29 EST" name="getCheckItemsTestData" data-provider="getCheckItemsTestDataPro" finished-at="2023-02-01T12:48:29 EST" duration-ms="295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CheckItem2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckItemsTestData -->
+        <test-method signature="getCheckItemsTestData(java.lang.String,java.lang.String)[pri:0, instance:com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest@2e8c1c9b]" started-at="2023-02-01T12:48:29 EST" name="getCheckItemsTestData" data-provider="getCheckItemsTestDataPro" finished-at="2023-02-01T12:48:30 EST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CheckItem3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckItemsTestData -->
+        <test-method is-config="true" signature="teaarDown()[pri:0, instance:com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest@2e8c1c9b]" started-at="2023-02-01T12:48:30 EST" name="teaarDown" finished-at="2023-02-01T12:48:30 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaarDown -->
+      </class> <!-- com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest -->
+      <class name="com.trelloapi.testcases.TC005_POST_CreateNewCard">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.trelloapi.testcases.TC005_POST_CreateNewCard@2a7f1f10]" started-at="2023-02-01T12:48:19 EST" name="setup" finished-at="2023-02-01T12:48:19 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="createNewCard()[pri:0, instance:com.trelloapi.testcases.TC005_POST_CreateNewCard@2a7f1f10]" started-at="2023-02-01T12:48:19 EST" name="createNewCard" finished-at="2023-02-01T12:48:21 EST" duration-ms="2367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCard -->
+        <test-method signature="checkCardName()[pri:0, instance:com.trelloapi.testcases.TC005_POST_CreateNewCard@2a7f1f10]" started-at="2023-02-01T12:48:21 EST" name="checkCardName" finished-at="2023-02-01T12:48:21 EST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCardName -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.trelloapi.testcases.TC005_POST_CreateNewCard@2a7f1f10]" started-at="2023-02-01T12:48:21 EST" name="checkResponseBody" finished-at="2023-02-01T12:48:21 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.trelloapi.testcases.TC005_POST_CreateNewCard@2a7f1f10]" started-at="2023-02-01T12:48:21 EST" name="checkStatusCode" finished-at="2023-02-01T12:48:21 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="getCardId()[pri:0, instance:com.trelloapi.testcases.TC005_POST_CreateNewCard@2a7f1f10]" started-at="2023-02-01T12:48:21 EST" name="getCardId" finished-at="2023-02-01T12:48:21 EST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCardId -->
+        <test-method is-config="true" signature="teaarDown()[pri:0, instance:com.trelloapi.testcases.TC005_POST_CreateNewCard@2a7f1f10]" started-at="2023-02-01T12:48:21 EST" name="teaarDown" finished-at="2023-02-01T12:48:21 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaarDown -->
+      </class> <!-- com.trelloapi.testcases.TC005_POST_CreateNewCard -->
+    </test> <!-- RestAssuredTests -->
+  </suite> <!-- TrelloRestAPISuite -->
+</testng-results>

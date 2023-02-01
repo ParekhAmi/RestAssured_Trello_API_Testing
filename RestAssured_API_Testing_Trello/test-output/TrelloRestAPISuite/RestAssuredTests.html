@@ -1,0 +1,275 @@
+<html>
+<head>
+<title>TestNG:  RestAssuredTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RestAssuredTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>39/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 01 12:48:07 EST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>30 seconds (30016 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.trelloapi.testcases.TC010_GET_CheckItemsCreated.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.trelloapi.testcases.TC010_GET_CheckItemsCreated</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC010_GET_CheckItemsCreated@53fe15ff</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest.getCheckItemsTestData()'><b>getCheckItemsTestData</b><br>Test class: com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest<br>Parameters: CheckItem1, 1.0</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest@2e8c1c9b</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC003_POST_CreateNewList.checkListName()'><b>checkListName</b><br>Test class: com.trelloapi.testcases.TC003_POST_CreateNewList</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC003_POST_CreateNewList@2e385cce</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC008_GET_CheckListCreated.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.trelloapi.testcases.TC008_GET_CheckListCreated</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC008_GET_CheckListCreated@740cae06</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC001_POST_CreateNewBoard.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.trelloapi.testcases.TC001_POST_CreateNewBoard</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC001_POST_CreateNewBoard@71ba6d4e</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC006_GET_VerifyCardCreated.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.trelloapi.testcases.TC006_GET_VerifyCardCreated</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC006_GET_VerifyCardCreated@46cdf8bd</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC008_GET_CheckListCreated.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.trelloapi.testcases.TC008_GET_CheckListCreated</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC008_GET_CheckListCreated@740cae06</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC004_GET_VerifyListCreated.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.trelloapi.testcases.TC004_GET_VerifyListCreated</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC004_GET_VerifyListCreated@2ddc9a9f</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC002_GET_VerifyBoardCreated.checkBoardId()'><b>checkBoardId</b><br>Test class: com.trelloapi.testcases.TC002_GET_VerifyBoardCreated</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC002_GET_VerifyBoardCreated@750e2b97</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC005_POST_CreateNewCard.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.trelloapi.testcases.TC005_POST_CreateNewCard</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC005_POST_CreateNewCard@2a7f1f10</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC007_CreateCheckList.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.trelloapi.testcases.TC007_CreateCheckList</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC007_CreateCheckList@f0c8a99</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC011_DELETE_DeleteBoard.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.trelloapi.testcases.TC011_DELETE_DeleteBoard</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC011_DELETE_DeleteBoard@449a4f23</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC011_DELETE_DeleteBoard.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.trelloapi.testcases.TC011_DELETE_DeleteBoard</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC011_DELETE_DeleteBoard@449a4f23</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC005_POST_CreateNewCard.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.trelloapi.testcases.TC005_POST_CreateNewCard</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC005_POST_CreateNewCard@2a7f1f10</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC001_POST_CreateNewBoard.getContentTypeHeaderValue()'><b>getContentTypeHeaderValue</b><br>Test class: com.trelloapi.testcases.TC001_POST_CreateNewBoard</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC001_POST_CreateNewBoard@71ba6d4e</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC005_POST_CreateNewCard.getCardId()'><b>getCardId</b><br>Test class: com.trelloapi.testcases.TC005_POST_CreateNewCard</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC005_POST_CreateNewCard@2a7f1f10</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC012_GET_VerifyBoardDeleted.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.trelloapi.testcases.TC012_GET_VerifyBoardDeleted</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC012_GET_VerifyBoardDeleted@1530c739</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC007_CreateCheckList.checkChecklistName()'><b>checkChecklistName</b><br>Test class: com.trelloapi.testcases.TC007_CreateCheckList</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC007_CreateCheckList@f0c8a99</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest.getCheckItemsTestData()'><b>getCheckItemsTestData</b><br>Test class: com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest<br>Parameters: CheckItem2, 2.0</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest@2e8c1c9b</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC001_POST_CreateNewBoard.getBoardId()'><b>getBoardId</b><br>Test class: com.trelloapi.testcases.TC001_POST_CreateNewBoard</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC001_POST_CreateNewBoard@71ba6d4e</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC003_POST_CreateNewList.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.trelloapi.testcases.TC003_POST_CreateNewList</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC003_POST_CreateNewList@2e385cce</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest@2e8c1c9b</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC007_CreateCheckList.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.trelloapi.testcases.TC007_CreateCheckList</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC007_CreateCheckList@f0c8a99</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC010_GET_CheckItemsCreated.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.trelloapi.testcases.TC010_GET_CheckItemsCreated</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC010_GET_CheckItemsCreated@53fe15ff</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC002_GET_VerifyBoardCreated.checkBoardName()'><b>checkBoardName</b><br>Test class: com.trelloapi.testcases.TC002_GET_VerifyBoardCreated</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC002_GET_VerifyBoardCreated@750e2b97</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC004_GET_VerifyListCreated.checkListName()'><b>checkListName</b><br>Test class: com.trelloapi.testcases.TC004_GET_VerifyListCreated</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC004_GET_VerifyListCreated@2ddc9a9f</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC008_GET_CheckListCreated.checkChecklistName()'><b>checkChecklistName</b><br>Test class: com.trelloapi.testcases.TC008_GET_CheckListCreated</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC008_GET_CheckListCreated@740cae06</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC002_GET_VerifyBoardCreated.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.trelloapi.testcases.TC002_GET_VerifyBoardCreated</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC002_GET_VerifyBoardCreated@750e2b97</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC004_GET_VerifyListCreated.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.trelloapi.testcases.TC004_GET_VerifyListCreated</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC004_GET_VerifyListCreated@2ddc9a9f</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC006_GET_VerifyCardCreated.checkCardName()'><b>checkCardName</b><br>Test class: com.trelloapi.testcases.TC006_GET_VerifyCardCreated</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC006_GET_VerifyCardCreated@46cdf8bd</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest.getCheckItemsTestData()'><b>getCheckItemsTestData</b><br>Test class: com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest<br>Parameters: CheckItem3, 3.0</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC009_POST_CreateCheckItems_DataDrivenTest@2e8c1c9b</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC006_GET_VerifyCardCreated.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.trelloapi.testcases.TC006_GET_VerifyCardCreated</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC006_GET_VerifyCardCreated@46cdf8bd</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC002_GET_VerifyBoardCreated.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.trelloapi.testcases.TC002_GET_VerifyBoardCreated</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC002_GET_VerifyBoardCreated@750e2b97</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC003_POST_CreateNewList.getListId()'><b>getListId</b><br>Test class: com.trelloapi.testcases.TC003_POST_CreateNewList</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC003_POST_CreateNewList@2e385cce</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC007_CreateCheckList.getChecklistId()'><b>getChecklistId</b><br>Test class: com.trelloapi.testcases.TC007_CreateCheckList</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC007_CreateCheckList@f0c8a99</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC001_POST_CreateNewBoard.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.trelloapi.testcases.TC001_POST_CreateNewBoard</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC001_POST_CreateNewBoard@71ba6d4e</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC005_POST_CreateNewCard.checkCardName()'><b>checkCardName</b><br>Test class: com.trelloapi.testcases.TC005_POST_CreateNewCard</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC005_POST_CreateNewCard@2a7f1f10</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC003_POST_CreateNewList.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.trelloapi.testcases.TC003_POST_CreateNewList</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC003_POST_CreateNewList@2e385cce</td></tr>
+<tr>
+<td title='com.trelloapi.testcases.TC012_GET_VerifyBoardDeleted.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.trelloapi.testcases.TC012_GET_VerifyBoardDeleted</td>
+<td></td>
+<td>0</td>
+<td>com.trelloapi.testcases.TC012_GET_VerifyBoardDeleted@1530c739</td></tr>
+</table><p>
+</body>
+</html>
